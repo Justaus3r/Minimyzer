@@ -1,3 +1,4 @@
+#!/bin/python3
 """
 An ugly piece of code(mostly for personal use) to minimize curently active window.
 """

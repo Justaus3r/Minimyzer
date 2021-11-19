@@ -45,7 +45,6 @@ def is_combination_pressed(combination) -> bool:
 
 
 def on_press(key) -> None:
-    global windows
     vk = get_vk(key) 
     pressed_vks.add(vk)
     # it would seems gtk doesnt update windows titles if windows events are pending so gotta use this hack

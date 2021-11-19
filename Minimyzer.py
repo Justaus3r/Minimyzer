@@ -28,7 +28,7 @@ MINIMIZE_COMBINATION = {keyboard.Key.ctrl, keyboard.KeyCode(vk=109)}
 def _minimize() -> None:
     try:
         screen.get_active_window().minimize()
-    except TypeError:
+    except (TypeError,AttributeError):
         pass
 
 

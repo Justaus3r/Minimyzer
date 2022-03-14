@@ -1,6 +1,5 @@
 # Minimyzer
-Minimize currently active window on Linux systems using ``ctrl + m`` keybinding(primarily for personal use).
-
+Minimize currently active window on Linux systems using ``ctrl + m`` keybinding(primarily for personal use).only checked for X based window managers
 ## Dependencies
 - Pygi
 - libwnck
